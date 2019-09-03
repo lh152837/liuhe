@@ -38,12 +38,14 @@ public class MainActivity extends BaseActivity implements HomeContarct.Iview {
         pullToRefreshListView.setOnRefreshListener(new PullToRefreshBase.OnRefreshListener2<ScrollView>() {
             @Override
             public void onPullDownToRefresh(PullToRefreshBase<ScrollView> refreshView) {
+                //下拉刷新
                 page = 1;
                 pullToRefreshListView.onRefreshComplete();
             }
 
             @Override
             public void onPullUpToRefresh(PullToRefreshBase<ScrollView> refreshView) {
+                //上拉加载
                 page++;
                 pullToRefreshListView.onRefreshComplete();
             }
@@ -92,7 +94,6 @@ public class MainActivity extends BaseActivity implements HomeContarct.Iview {
 
     @Override
     public void onHomeShi(String e) {
-
     }
 
     @Override

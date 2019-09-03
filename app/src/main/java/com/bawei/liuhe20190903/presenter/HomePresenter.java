@@ -42,7 +42,6 @@ public class HomePresenter implements HomeContarct.IgetPresenter {
                 Log.d("sss", "onHomeCheng: "+data);
                 getView().onHomeCheng(data);
             }
-
             @Override
             public void onHomeShi(String shi) {
             getView().onHomeShi(shi);

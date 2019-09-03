@@ -16,7 +16,6 @@ import java.util.ArrayList;
 public class MyBase extends BaseAdapter {
     Context context;
     ArrayList<Bjiji.DataBean>arrayList;
-    private View inflate;
 
     public MyBase(Context context, ArrayList<Bjiji.DataBean> arrayList) {
         this.context = context;

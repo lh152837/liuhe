@@ -1,6 +1,7 @@
 package com.bawei.liuhe20190903.contarct;
 
 public interface HomeContarct {
+    //契约类
     interface Iview{
         //成功
         void  onHomeCheng(String data);
