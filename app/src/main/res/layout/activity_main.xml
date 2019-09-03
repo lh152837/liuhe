@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.handmark.pulltorefresh.library.PullToRefreshScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/list_view"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="热卖"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+    <com.bawei.liuhe20190903.utils.MyListview
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list"
+        ></com.bawei.liuhe20190903.utils.MyListview>
+    </LinearLayout>
+    <!--<com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true"
+        android:fastScrollEnabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_view"
+        ></com.handmark.pulltorefresh.library.PullToRefreshListView>
+-->
+</com.handmark.pulltorefresh.library.PullToRefreshScrollView>
